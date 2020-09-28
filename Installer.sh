@@ -1,5 +1,7 @@
 cd
 su -c cp -f ~/hackbench1/hackbench /data/local/tmp/
 su -c chmod 755 /data/local/tmp/hackbench
+su -c ~/hackbench1/hackbench /system/bin/hackbench
+su -c chmod +x /system/bin/hackbench
 echo "Successful"
-printf "Type the following to run \n su \n cd /data/local/tmp \n ./hackbench -pTl 4000"
+echo "Type "hackbench" to run"
