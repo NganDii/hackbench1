@@ -7,3 +7,4 @@ su -c chmod +x $bin/hackbench
 echo "Successful"
 echo "Type "hackbench" to run"
 rm -rf ~/hackbench1
+cd ~
